@@ -1,0 +1,36 @@
+# Referred java gitignore template from github library (https://github.com/github/gitignore) with some modifications:
+# Author - GitHub.
+# Source - https://github.com/github/gitignore/blob/master/Java.gitignore
+
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# Custom files and folders
+*.iml
+.gradle
+.idea
+.DS_Store
+target/*
+
+bin
