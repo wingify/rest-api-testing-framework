@@ -57,6 +57,7 @@ This Project Requires Java and gradle to be installed on your system.
 ## Installation<a name="install"></a>
 
 * Clone the repo on your local system.<br />
+
   ```sh
   git clone https://github.com/NAKULT/Rest-ApiFramework.git
   ```
@@ -124,26 +125,9 @@ This framework is built using RestAssured library, and it is made in such a way 
 
 `src/main/java/reports` is the report package which uses TestNG extent reports generating an interactive and detailed HTML reports for our API test cases.
 
-
-
-<!-- CONTRIBUTING -->
-## Contributing<a name="Contributing"></a>
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request.
-
-
 ## Usage<a name="example"></a>
 
-```
+```java
 @Test
 public static void login() {
 String username = System.getProperty("username");
@@ -169,8 +153,8 @@ if (response != null) {
    }
 }
 ```
-```
 
+```java
 public Login createLoginBody(String username ,String password) {
 Login loginRequest = (Login) TestUtilFunctions.mapJson(
         "login.json",
@@ -183,10 +167,36 @@ return loginRequest;
 ```
 
 
+<!-- CONTRIBUTING -->
+## Contributing<a name="Contributing"></a>
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+Please go through our [contributing guidelines](https://github.com/wingify/rest-api-framework/blob/master/CONTRIBUTING.md)
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request.
+
+### Code of Conduct
+
+[Code of Conduct](https://github.com/wingify/rest-api-framework/blob/master/CODE_OF_CONDUCT.md)
+
 ## Acknowledgments<a name="acknowledgments"></a>
 
 * [RestAssured Official Docs](https://rest-assured.io/)
 * [TestNG Docs](https://testng.org/doc/)
+
+## License
+
+[Apache License, Version 2.0](https://github.com/wingify/rest-api-framework/blob/master/LICENSE)
+
+Copyright 2022 Wingify Software Pvt. Ltd.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
