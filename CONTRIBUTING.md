@@ -21,7 +21,7 @@ Pull requests are the best way to propose changes to the codebase (we use [Githu
 When you submit code changes, your submissions are understood to be under the same [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0) that covers the project. Feel free to contact the maintainers if that's a concern.
 
 ### Report bugs using GitHub issues
-We use GitHub issues to track public bugs. Report a bug by [opening a new issue](https://github.com/wingify/rest-api-framework/issues); it's that easy!
+We use GitHub issues to track public bugs. Report a bug by [opening a new issue](https://github.com/wingify/rest-api-testing-framework/issues); it's that easy!
 
 **Note**: Write bug reports with detail, background, and sample code
 

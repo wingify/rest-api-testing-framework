@@ -1,14 +1,9 @@
 <div id="top"></div>
 
-<div align="center">
+
+<table border="1" align="center"><tr><td><h1>REST API Testing Framework</h1></td></tr></table>
 
 [![Contributors][contributors-shield]][contributors-url]
-</div>
-
-
-
-<table border="1" align="center"><tr><td><h1>REST API Framework</h1></td></tr></table>
-
 
 ## About The Project
 
@@ -59,7 +54,7 @@ This Project Requires Java and gradle to be installed on your system.
 * Clone the repo on your local system.<br />
 
   ```sh
-  git clone https://github.com/wingify/rest-api-framework.git
+  git clone https://github.com/wingify/rest-api-testing-framework.git
   ```
 
 
@@ -172,7 +167,7 @@ return loginRequest;
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-Please go through our [contributing guidelines](https://github.com/wingify/rest-api-framework/blob/master/CONTRIBUTING.md)
+Please go through our [contributing guidelines](https://github.com/wingify/rest-api-testing-framework/blob/master/CONTRIBUTING.md)
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
 Don't forget to give the project a star! Thanks again!
@@ -190,7 +185,7 @@ Don't forget to give the project a star! Thanks again!
 
 ## Code of Conduct
 
-[Code of Conduct](https://github.com/wingify/rest-api-framework/blob/master/CODE_OF_CONDUCT.md)
+[Code of Conduct](https://github.com/wingify/rest-api-testing-framework/blob/master/CODE_OF_CONDUCT.md)
 
 ## Acknowledgments<a name="acknowledgments"></a>
 
@@ -199,12 +194,12 @@ Don't forget to give the project a star! Thanks again!
 
 ## License
 
-[Apache License, Version 2.0](https://github.com/wingify/rest-api-framework/blob/master/LICENSE)
+[Apache License, Version 2.0](https://github.com/wingify/rest-api-testing-framework/blob/master/LICENSE)
 
 Copyright 2022 Wingify Software Pvt. Ltd.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/wingify/rest-api-framework.svg?style=for-the-badge
-[contributors-url]: https://github.com/wingify/rest-api-framework/contributors
+[contributors-shield]: https://img.shields.io/github/contributors/wingify/rest-api-testing-framework.svg?style=for-the-badge
+[contributors-url]: https://github.com/wingify/rest-api-testing-framework/contributors
 <p align="right">(<a href="#top">back to top)</a></p>
