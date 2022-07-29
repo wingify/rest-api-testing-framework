@@ -59,7 +59,7 @@ This Project Requires Java and gradle to be installed on your system.
 * Clone the repo on your local system.<br />
 
   ```sh
-  git clone https://github.com/NAKULT/Rest-ApiFramework.git
+  git clone https://github.com/wingify/rest-api-framework.git
   ```
 
 
@@ -183,7 +183,12 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request.
 
-### Code of Conduct
+## Contributors
+
+- [Nakul Thaper](https://github.com/NAKULT)
+- [Abhishek Joshi](https://github.com/Abhi591)
+
+## Code of Conduct
 
 [Code of Conduct](https://github.com/wingify/rest-api-framework/blob/master/CODE_OF_CONDUCT.md)
 
@@ -200,12 +205,6 @@ Copyright 2022 Wingify Software Pvt. Ltd.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/NAKULT/Rest-ApiFramework.svg?style=for-the-badge
-[contributors-url]: https://github.com/NAKULT/Rest-ApiFramework/contributors
-[forks-shield]: https://img.shields.io/github/forks/NAKULT/Rest-ApiFramework.svg?style=for-the-badge
-[forks-url]: https://github.com/NAKULT/Rest-ApiFramework/network/members
-[stars-shield]: https://img.shields.io/github/stars/NAKULT/Rest-ApiFramework.svg?style=for-the-badge
-[stars-url]: https://github.com/NAKULT/Rest-ApiFramework/stargazers
-[issues-shield]: https://img.shields.io/github/issues/NAKULT/Rest-ApiFramework.svg?style=for-the-badge
-[issues-url]: https://github.com/NAKULT/Rest-ApiFramework/issues
+[contributors-shield]: https://img.shields.io/github/contributors/wingify/rest-api-framework.svg?style=for-the-badge
+[contributors-url]: https://github.com/wingify/rest-api-framework/contributors
 <p align="right">(<a href="#top">back to top)</a></p>
