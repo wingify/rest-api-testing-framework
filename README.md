@@ -10,7 +10,7 @@
 * This project is a RestAssured based API testing framework.
 * Underlying, it uses `RestAssured` - API testing library, `TestNG` - Third-party free library for Running tests,
   and `Reporting Extent Reports` (library for interactive and detailed reports for tests).
-* This Project is one stop solution for automating all your Rest APIs.
+* This Project provides solution to automate all your Rest API Test cases at a go.
 * It is built in such a way that the core structure of this framework can be used to automate any of your REST APIs by adding your own code on top of it.
 * This framework provides you the capability to log Curls for all your API requests which can help you debug incase of any issues.
 * It also provides listeners and reports for better understanding of your test results.
