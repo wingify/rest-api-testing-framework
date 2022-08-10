@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Login and Logout">
+  <listeners>
+    <listener class-name="listeners.DefaultListeners"/>
+  </listeners>
+  <test name="Login and logout test">
+    <classes>
+      <class name="testclasses.LoginTest"/>
+    </classes>
+  </test>
+</suite>

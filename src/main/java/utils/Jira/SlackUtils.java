@@ -1,12 +1,10 @@
 package utils.Jira;
 
-import apirequestbuilder.SlackMessageBuilder;
 import basepackage.BaseApi;
 import constants.BasePath;
 import io.restassured.response.Response;
 import java.util.HashMap;
 import org.json.simple.JSONObject;
-import requestpojo.Slack.SlackMessage;
 
 /**
  * This helper class has helper functions for pushing messages to slack

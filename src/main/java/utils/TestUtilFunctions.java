@@ -3,6 +3,7 @@ package utils;
 import basepackage.BaseTest;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.opencsv.CSVReader;
+import com.opencsv.exceptions.CsvException;
 import io.restassured.response.Response;
 import io.restassured.specification.FilterableRequestSpecification;
 import org.assertj.core.api.Assertions;
@@ -115,7 +116,7 @@ public class TestUtilFunctions extends BaseTest {
         CSVReader csvReader = new CSVReader(reader);
         try {
             list = csvReader.readAll();
-        } catch (IOException e) {
+        } catch (IOException | CsvException e) {
             e.printStackTrace();
         }
         return list;

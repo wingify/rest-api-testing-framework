@@ -1,7 +1,7 @@
 package reports;
 
 import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
 import java.io.File;
@@ -19,7 +19,7 @@ public class ExtentReport {
 
     public static ExtentReports CreateInstance() {
         String fileName = getReportPath(reportFilepath);
-        ExtentHtmlReporter reporter = new ExtentHtmlReporter(fileName);
+      ExtentSparkReporter reporter = new ExtentSparkReporter(fileName);
         ThreadLocal<ExtentReports> extentReportsThreadLocal = new ThreadLocal<ExtentReports>() {
 
             protected ExtentReports initialValue() {
@@ -65,6 +65,6 @@ public class ExtentReport {
     }
 
     public static void error(String s) {
-        ExtentTestManager.getTest().error(s);
+        ExtentTestManager.getTest().fail(s);
     }
 }
