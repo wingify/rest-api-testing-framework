@@ -9,7 +9,7 @@ public class LoginTest {
 
   @Test
   public void loginTest(){
-    Response loginTest = LoginOperation.postLogin();
-    TestUtilFunctions.validateStatusCode(loginTest, 200);
+    Response loginResponse = LoginOperation.login();
+    TestUtilFunctions.validateStatusCode(loginResponse, 200);
   }
 }
